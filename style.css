@@ -1,0 +1,52 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.scrollable-input {
+  width: 300px; /* Set your desired width */
+  overflow-x: auto; /* Enable horizontal scrolling */
+  white-space: nowrap; /* Prevent text from wrapping to the next line */
+}
+
+.align-element {
+  margin: 0 auto;
+  display: flex;
+  justify-content: center; /* Adjust as needed */
+  align-items: center; /* Adjust as needed */
+  /* Add any other necessary styles */
+}
+@media (min-width: 576px) {
+  .sm\:after,
+  .sm\:before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+}
+
+@media (min-width: 768px) {
+  .md\:after,
+  .md\:before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+}
+
+@media (min-width: 992px) {
+  .lg\:after,
+  .lg\:before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+}
+
+@media (min-width: 1200px) {
+  .xl\:after,
+  .xl\:before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+}

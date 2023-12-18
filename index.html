@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <link rel="stylesheet" href="style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+    <title>Zoom</title>
+  </head>
+  <body class="bg-midnight text-tahiti sans-serif">
+    <script async src="/functionsInGlobalScope.js"></script>
+
+    <header>
+      <nav
+        id="nav"
+        class="flex justify-between flex-row items-center p-4 bg-gradient-to-r from-blue-100 via-blue-200 to-blue-900 text-tahiti fixed top-0 w-full z-50"
+      >
+        <div class="flex items-start items-center md:items-start">
+          <img
+            alt="Zoom Logo"
+            height="26"
+            src="https://images4.welcomesoftware.com/assets/Zoom+Logo/Zz01ZGU4MDMzZWJmNDcxMWVkOTI4NGEyNDU1OWRiZTc5Zg==?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOlsiNWRlODAzM2ViZjQ3MTFlZDkyODRhMjQ1NTlkYmU3OWYiXSwiZXhwIjoxNjgxMzM0MTEwfQ.3_IFoXtmS8ExOGbL0F1oGPu8z6lgijgDWFf82zrDFzk"
+            width="114"
+          />
+          <!-- <div id="toggle" class="hidden md:block">
+            is dynamically rendered in navMapping
+          </div>-->
+        </div>
+
+        <div>
+          <!-- <div id="navButtons" class="hidden">
+            is dynamically rendered in navMapping
+          </div>-->
+          <div id="toggleSmall" class="block">
+            is dynamically rendered in navMapping
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <div>
+      <div id="accessibleDialog" class="bg-black w-5 h-5"></div>
+    </div>
+
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
